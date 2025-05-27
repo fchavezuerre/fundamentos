@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Página Responsiva</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #444;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    .contenedor {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .caja {
+      flex: 1 1 300px;
+      background-color: #f4f4f4;
+      padding: 20px;
+      border: 1px solid #ccc;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
+
+    @media (max-width: 600px) {
+      nav {
+        font-size: 14px;
+      }
+
+      .caja {
+        flex: 1 1 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  
+
+  <header>
+    <h1>Mi Página Responsiva</h1>
+  </header>
+
+  <nav>
+    <a href="#">Inicio</a>
+    <a href="#">Servicios</a>
+    <a href="#">Contacto</a>
+  </nav>
+
+  <main>
+    <h2>Bienvenido</h2>
+    <p>Esta es una página de ejemplo que se adapta a diferentes dispositivos.</p>
+
+    <div class="contenedor">
+      <div class="caja">Contenido 1</div>
+      <div class="caja">Contenido 2</div>
+      <div class="caja">Contenido 3</div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Mi Sitio Web</p>
+  </footer>
+
+</body>
+</html>

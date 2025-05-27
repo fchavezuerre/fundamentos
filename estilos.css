@@ -1,0 +1,56 @@
+/* estilos para nuestro body*/
+body{
+	font-family: Arial, sans-serif; /*define la tipografia principal*/
+	background-color:#f0f0f0; /*color de fondo */
+	margin:0; /*elimina margenes predetermiandos*/
+	padding:0; /*elimina relleno determinado*/
+}
+
+header{
+	background-color:#333; 
+	color:white;
+	text-align: center;
+	padding:20px; /*agrega espacio alrededor del contenido del encabezado */
+}
+/*estilos para el menu de navegacion*/
+
+nav ul{
+  list-style-type: none; /*elimina los puntos de la lista*/
+  padding:0; /*elimina relleno determinado*/
+  background-color: #444; /*color de fondo de la barra de navegacion*/
+  overflow: hidden; /*evita que los elementos flotantes desborden el contenedor*/
+}
+
+nav ul li{
+	float:left; /*alinea los elementos horizontalmente*/
+}
+
+nav ul li a{
+	display: block; /*hace que los enlaces se comporten como bloques*/
+	color: white; /* color del texto */
+	text-align: center;/*centra el texto de los enlaces*/
+	padding: 14px 16px; /*espaciado interno del enlace*/
+	text-decoration: none;/*elimina el subrayado de los enlaces*/
+}
+
+nav ul li a:hover{
+	background-color:#333; /*cambia el color de fondo del enlace*/
+}
+
+/*estilos para la seccion principal*/
+main{
+	padding: 40px;
+}
+
+h1{
+	color:green;
+}	
+
+footer{ background-color:#333;
+	color:white;
+	text-align:center;
+	padding:40;
+        /*position: fixed;*/
+         bottom:0;
+  
+}
